@@ -35,7 +35,7 @@ These settings apply only when `--tag=package-2025-05-01` is specified on the co
 
 ```yaml $(tag) == 'package-2025-05-01'
 input-file:
-  - Microsoft.KeyVault/stable/2025-05-01/openapi.json
+  - stable/2025-05-01/openapi.json
 ```
 
 ### Tag: package-2024-11-01
@@ -44,13 +44,13 @@ These settings apply only when `--tag=package-2024-11-01` is specified on the co
 
 ```yaml $(tag) == 'package-2024-11-01'
 input-file:
-  - Microsoft.KeyVault/stable/2024-11-01/common.json
-  - Microsoft.KeyVault/stable/2024-11-01/keys.json
-  - Microsoft.KeyVault/stable/2024-11-01/keysManagedHsm.json
-  - Microsoft.KeyVault/stable/2024-11-01/keyvault.json
-  - Microsoft.KeyVault/stable/2024-11-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2024-11-01/providers.json
-  - Microsoft.KeyVault/stable/2024-11-01/secrets.json
+  - stable/2024-11-01/common.json
+  - stable/2024-11-01/keys.json
+  - stable/2024-11-01/keysManagedHsm.json
+  - stable/2024-11-01/keyvault.json
+  - stable/2024-11-01/managedHsm.json
+  - stable/2024-11-01/providers.json
+  - stable/2024-11-01/secrets.json
 ```
 
 ### Tag: package-preview-2024-12
@@ -59,13 +59,13 @@ These settings apply only when `--tag=package-preview-2024-12` is specified on t
 
 ```yaml $(tag) == 'package-preview-2024-12'
 input-file:
-  - Microsoft.KeyVault/preview/2024-12-01-preview/common.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/keysManagedHsm.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2024-12-01-preview/secrets.json
+  - preview/2024-12-01-preview/common.json
+  - preview/2024-12-01-preview/keys.json
+  - preview/2024-12-01-preview/keysManagedHsm.json
+  - preview/2024-12-01-preview/keyvault.json
+  - preview/2024-12-01-preview/managedHsm.json
+  - preview/2024-12-01-preview/providers.json
+  - preview/2024-12-01-preview/secrets.json
 ```
 
 ### Tag: package-preview-2024-04
@@ -74,13 +74,13 @@ These settings apply only when `--tag=package-preview-2024-04` is specified on t
 
 ```yaml $(tag) == 'package-preview-2024-04'
 input-file:
-  - Microsoft.KeyVault/preview/2024-04-01-preview/common.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/keysManagedHsm.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2024-04-01-preview/secrets.json
+  - preview/2024-04-01-preview/common.json
+  - preview/2024-04-01-preview/keys.json
+  - preview/2024-04-01-preview/keysManagedHsm.json
+  - preview/2024-04-01-preview/keyvault.json
+  - preview/2024-04-01-preview/managedHsm.json
+  - preview/2024-04-01-preview/providers.json
+  - preview/2024-04-01-preview/secrets.json
 ```
 
 ### Tag: package-2023-07
@@ -89,13 +89,13 @@ These settings apply only when `--tag=package-2023-07` is specified on the comma
 
 ```yaml $(tag) == 'package-2023-07'
 input-file:
-  - Microsoft.KeyVault/stable/2023-07-01/common.json
-  - Microsoft.KeyVault/stable/2023-07-01/keys.json
-  - Microsoft.KeyVault/stable/2023-07-01/keysManagedHsm.json
-  - Microsoft.KeyVault/stable/2023-07-01/keyvault.json
-  - Microsoft.KeyVault/stable/2023-07-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2023-07-01/providers.json
-  - Microsoft.KeyVault/stable/2023-07-01/secrets.json
+  - stable/2023-07-01/common.json
+  - stable/2023-07-01/keys.json
+  - stable/2023-07-01/keysManagedHsm.json
+  - stable/2023-07-01/keyvault.json
+  - stable/2023-07-01/managedHsm.json
+  - stable/2023-07-01/providers.json
+  - stable/2023-07-01/secrets.json
 ```
 ### Tag: package-2023-02
 
@@ -103,13 +103,13 @@ These settings apply only when `--tag=package-2023-02` is specified on the comma
 
 ``` yaml $(tag) == 'package-2023-02'
 input-file:
-  - Microsoft.KeyVault/stable/2023-02-01/common.json
-  - Microsoft.KeyVault/stable/2023-02-01/keys.json
-  - Microsoft.KeyVault/stable/2023-02-01/keysManagedHsm.json
-  - Microsoft.KeyVault/stable/2023-02-01/keyvault.json
-  - Microsoft.KeyVault/stable/2023-02-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2023-02-01/providers.json
-  - Microsoft.KeyVault/stable/2023-02-01/secrets.json
+  - stable/2023-02-01/common.json
+  - stable/2023-02-01/keys.json
+  - stable/2023-02-01/keysManagedHsm.json
+  - stable/2023-02-01/keyvault.json
+  - stable/2023-02-01/managedHsm.json
+  - stable/2023-02-01/providers.json
+  - stable/2023-02-01/secrets.json
 ```
 
 ### Tag: package-2022-11
@@ -118,13 +118,13 @@ These settings apply only when `--tag=package-2022-11` is specified on the comma
 
 ``` yaml $(tag) == 'package-2022-11'
 input-file:
-  - Microsoft.KeyVault/stable/2022-11-01/common.json
-  - Microsoft.KeyVault/stable/2022-11-01/keys.json
-  - Microsoft.KeyVault/stable/2022-11-01/keyvault.json
-  - Microsoft.KeyVault/stable/2022-11-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2022-11-01/keysManagedHsm.json
-  - Microsoft.KeyVault/stable/2022-11-01/providers.json
-  - Microsoft.KeyVault/stable/2022-11-01/secrets.json
+  - stable/2022-11-01/common.json
+  - stable/2022-11-01/keys.json
+  - stable/2022-11-01/keyvault.json
+  - stable/2022-11-01/managedHsm.json
+  - stable/2022-11-01/keysManagedHsm.json
+  - stable/2022-11-01/providers.json
+  - stable/2022-11-01/secrets.json
 
 ```
 
@@ -134,12 +134,12 @@ These settings apply only when `--tag=package-preview-2022-02` is specified on t
 
 ``` yaml $(tag) == 'package-preview-2022-02'
 input-file:
-  - Microsoft.KeyVault/preview/2022-02-01-preview/common.json
-  - Microsoft.KeyVault/preview/2022-02-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2022-02-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2022-02-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2022-02-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2022-02-01-preview/secrets.json
+  - preview/2022-02-01-preview/common.json
+  - preview/2022-02-01-preview/keys.json
+  - preview/2022-02-01-preview/keyvault.json
+  - preview/2022-02-01-preview/managedHsm.json
+  - preview/2022-02-01-preview/providers.json
+  - preview/2022-02-01-preview/secrets.json
 
 ```
 
@@ -149,12 +149,12 @@ These settings apply only when `--tag=package-2022-07` is specified on the comma
 
 ``` yaml $(tag) == 'package-2022-07'
 input-file:
-  - Microsoft.KeyVault/stable/2022-07-01/common.json
-  - Microsoft.KeyVault/stable/2022-07-01/keys.json
-  - Microsoft.KeyVault/stable/2022-07-01/keyvault.json
-  - Microsoft.KeyVault/stable/2022-07-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2022-07-01/providers.json
-  - Microsoft.KeyVault/stable/2022-07-01/secrets.json
+  - stable/2022-07-01/common.json
+  - stable/2022-07-01/keys.json
+  - stable/2022-07-01/keyvault.json
+  - stable/2022-07-01/managedHsm.json
+  - stable/2022-07-01/providers.json
+  - stable/2022-07-01/secrets.json
 ```
 
 ### Tag: package-preview-2021-11
@@ -163,12 +163,12 @@ These settings apply only when `--tag=package-preview-2021-11` is specified on t
 
 ``` yaml $(tag) == 'package-preview-2021-11'
 input-file:
-  - Microsoft.KeyVault/preview/2021-11-01-preview/common.json
-  - Microsoft.KeyVault/preview/2021-11-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2021-11-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2021-11-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2021-11-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2021-11-01-preview/secrets.json
+  - preview/2021-11-01-preview/common.json
+  - preview/2021-11-01-preview/keys.json
+  - preview/2021-11-01-preview/keyvault.json
+  - preview/2021-11-01-preview/managedHsm.json
+  - preview/2021-11-01-preview/providers.json
+  - preview/2021-11-01-preview/secrets.json
 ```
 
 ### Tag: package-2021-10
@@ -177,12 +177,12 @@ These settings apply only when `--tag=package-2021-10` is specified on the comma
 
 ``` yaml $(tag) == 'package-2021-10'
 input-file:
-  - Microsoft.KeyVault/stable/2021-10-01/common.json
-  - Microsoft.KeyVault/stable/2021-10-01/keys.json
-  - Microsoft.KeyVault/stable/2021-10-01/keyvault.json
-  - Microsoft.KeyVault/stable/2021-10-01/managedHsm.json
-  - Microsoft.KeyVault/stable/2021-10-01/providers.json
-  - Microsoft.KeyVault/stable/2021-10-01/secrets.json
+  - stable/2021-10-01/common.json
+  - stable/2021-10-01/keys.json
+  - stable/2021-10-01/keyvault.json
+  - stable/2021-10-01/managedHsm.json
+  - stable/2021-10-01/providers.json
+  - stable/2021-10-01/secrets.json
 ```
 
 ### Tag: package-preview-2021-06
@@ -191,12 +191,12 @@ These settings apply only when `--tag=package-preview-2021-06` is specified on t
 
 ``` yaml $(tag) == 'package-preview-2021-06'
 input-file:
-  - Microsoft.KeyVault/preview/2021-06-01-preview/common.json
-  - Microsoft.KeyVault/preview/2021-06-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2021-06-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2021-06-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2021-06-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2021-06-01-preview/secrets.json
+  - preview/2021-06-01-preview/common.json
+  - preview/2021-06-01-preview/keys.json
+  - preview/2021-06-01-preview/keyvault.json
+  - preview/2021-06-01-preview/managedHsm.json
+  - preview/2021-06-01-preview/providers.json
+  - preview/2021-06-01-preview/secrets.json
 ```
 
 ### Tag: package-preview-2021-04
@@ -205,10 +205,10 @@ These settings apply only when `--tag=package-preview-2021-04` is specified on t
 
 ``` yaml $(tag) == 'package-preview-2021-04'
 input-file:
-  - Microsoft.KeyVault/preview/2021-04-01-preview/common.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/providers.json
+  - preview/2021-04-01-preview/common.json
+  - preview/2021-04-01-preview/keyvault.json
+  - preview/2021-04-01-preview/managedHsm.json
+  - preview/2021-04-01-preview/providers.json
 ```
 
 ### Tag: package-preview-2021-04-full
@@ -217,12 +217,12 @@ These settings apply only when `--tag=package-preview-2021-04` is specified on t
 
 ``` yaml $(tag) == 'package-preview-2021-04-full'
 input-file:
-  - Microsoft.KeyVault/preview/2021-04-01-preview/common.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/managedHsm.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2021-04-01-preview/secrets.json
+  - preview/2021-04-01-preview/common.json
+  - preview/2021-04-01-preview/keyvault.json
+  - preview/2021-04-01-preview/managedHsm.json
+  - preview/2021-04-01-preview/providers.json
+  - preview/2021-04-01-preview/keys.json
+  - preview/2021-04-01-preview/secrets.json
 ```
 
 ### Tag: package-preview-2020-04
@@ -232,9 +232,9 @@ This tag is for the development of preview features related to managed HSM of Az
 
 ``` yaml $(tag) == 'package-preview-2020-04'
 input-file:
-  - Microsoft.KeyVault/stable/2019-09-01/keyvault.json
-  - Microsoft.KeyVault/stable/2019-09-01/providers.json
-  - Microsoft.KeyVault/preview/2020-04-01-preview/managedHsm.json
+  - stable/2019-09-01/keyvault.json
+  - stable/2019-09-01/providers.json
+  - preview/2020-04-01-preview/managedHsm.json
 ```
 
 ### Tag: package-preview-2020-04-full
@@ -243,11 +243,11 @@ These settings apply only when `--tag=package-preview-2020-04-full` is specified
 
 ``` yaml $(tag) == 'package-preview-2020-04-full'
 input-file:
-  - Microsoft.KeyVault/preview/2020-04-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2020-04-01-preview/keyvault.json
-  - Microsoft.KeyVault/preview/2020-04-01-preview/providers.json
-  - Microsoft.KeyVault/preview/2020-04-01-preview/secrets.json
-  - Microsoft.KeyVault/preview/2020-04-01-preview/managedHsm.json
+  - preview/2020-04-01-preview/keys.json
+  - preview/2020-04-01-preview/keyvault.json
+  - preview/2020-04-01-preview/providers.json
+  - preview/2020-04-01-preview/secrets.json
+  - preview/2020-04-01-preview/managedHsm.json
 ```
 
 ### Tag: package-2019-09
@@ -256,9 +256,9 @@ These settings apply only when `--tag=package-2019-09` is specified on the comma
 
 ``` yaml $(tag) == 'package-2019-09'
 input-file:
-- Microsoft.KeyVault/stable/2019-09-01/keyvault.json
-- Microsoft.KeyVault/stable/2019-09-01/providers.json
-- Microsoft.KeyVault/stable/2019-09-01/keys.json
+- stable/2019-09-01/keyvault.json
+- stable/2019-09-01/providers.json
+- stable/2019-09-01/keys.json
 ```
 
 ### Tag: package-2018-02-14-preview
@@ -267,8 +267,8 @@ These settings apply only when `--tag=package-2018-02-14-preview` is specified o
 
 ``` yaml $(tag) == 'package-2018-02-14-preview'
 input-file:
-- Microsoft.KeyVault/preview/2018-02-14-preview/keyvault.json
-- Microsoft.KeyVault/preview/2018-02-14-preview/providers.json
+- preview/2018-02-14-preview/keyvault.json
+- preview/2018-02-14-preview/providers.json
 ```
 
 ### Tag: package-2018-02
@@ -277,8 +277,8 @@ These settings apply only when `--tag=package-2018-02` is specified on the comma
 
 ``` yaml $(tag) == 'package-2018-02'
 input-file:
-- Microsoft.KeyVault/stable/2018-02-14/keyvault.json
-- Microsoft.KeyVault/stable/2018-02-14/providers.json
+- stable/2018-02-14/keyvault.json
+- stable/2018-02-14/providers.json
 ```
 
 ### Tag: package-2016-10
@@ -287,8 +287,8 @@ These settings apply only when `--tag=package-2016-10` is specified on the comma
 
 ``` yaml $(tag) == 'package-2016-10'
 input-file:
-- Microsoft.KeyVault/stable/2016-10-01/keyvault.json
-- Microsoft.KeyVault/stable/2016-10-01/providers.json
+- stable/2016-10-01/keyvault.json
+- stable/2016-10-01/providers.json
 ```
 
 ### Tag: package-2015-06
@@ -297,7 +297,7 @@ These settings apply only when `--tag=package-2015-06` is specified on the comma
 
 ``` yaml $(tag) == 'package-2015-06'
 input-file:
-- Microsoft.KeyVault/stable/2015-06-01/keyvault.json
+- stable/2015-06-01/keyvault.json
 ```
 
 ### Tag: profile-hybrid-2020-09-01
@@ -307,9 +307,9 @@ Creating this tag to pick proper resources from the hybrid profile.
 
 ``` yaml $(tag) == 'profile-hybrid-2020-09-01'
 input-file:
-- Microsoft.KeyVault/stable/2019-09-01/keyvault.json
-- Microsoft.KeyVault/stable/2019-09-01/providers.json
-- Microsoft.KeyVault/stable/2019-09-01/secrets.json
+- stable/2019-09-01/keyvault.json
+- stable/2019-09-01/providers.json
+- stable/2019-09-01/secrets.json
 ```
 
 ### Suppression

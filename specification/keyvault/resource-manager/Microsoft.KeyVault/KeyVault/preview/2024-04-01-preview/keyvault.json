@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "version": "2024-12-01-preview",
+    "version": "2024-04-01-preview",
     "title": "KeyVaultManagementClient",
     "description": "The Azure management API provides a RESTful set of web services that interact with Azure Key Vault."
   },
@@ -1049,7 +1049,7 @@
           "200": {
             "description": "Get information about the network security perimeter associations of the key vault.",
             "schema": {
-              "$ref": "../../../../../common-types/resource-management/v5/networksecurityperimeter.json#/definitions/NetworkSecurityPerimeterConfigurationListResult"
+              "$ref": "../../../../../../common-types/resource-management/v5/networksecurityperimeter.json#/definitions/NetworkSecurityPerimeterConfigurationListResult"
             }
           },
           "default": {
@@ -1100,7 +1100,7 @@
           "200": {
             "description": "Get information about the network security perimeter associations of the key vault.",
             "schema": {
-              "$ref": "../../../../../common-types/resource-management/v5/networksecurityperimeter.json#/definitions/NetworkSecurityPerimeterConfiguration"
+              "$ref": "../../../../../../common-types/resource-management/v5/networksecurityperimeter.json#/definitions/NetworkSecurityPerimeterConfiguration"
             }
           },
           "default": {
@@ -1339,17 +1339,14 @@
         },
         "enabledForDeployment": {
           "type": "boolean",
-          "default": false,
           "description": "Property to specify whether Azure Virtual Machines are permitted to retrieve certificates stored as secrets from the key vault."
         },
         "enabledForDiskEncryption": {
           "type": "boolean",
-          "default": false,
           "description": "Property to specify whether Azure Disk Encryption is permitted to retrieve secrets from the vault and unwrap keys."
         },
         "enabledForTemplateDeployment": {
           "type": "boolean",
-          "default": false,
           "description": "Property to specify whether Azure Resource Manager is permitted to retrieve secrets from the key vault."
         },
         "enableSoftDelete": {

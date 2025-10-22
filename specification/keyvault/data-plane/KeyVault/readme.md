@@ -35,15 +35,15 @@ These settings apply only when `--tag=package-2025-07-01` is specified on the co
 
 ```yaml $(tag) == 'package-2025-07-01'
 input-file:
-  - Microsoft.KeyVault/stable/2025-07-01/backuprestore.json
-  - Microsoft.KeyVault/stable/2025-07-01/certificates.json
-  - Microsoft.KeyVault/stable/2025-07-01/common.json
-  - Microsoft.KeyVault/stable/2025-07-01/keys.json
-  - Microsoft.KeyVault/stable/2025-07-01/rbac.json
-  - Microsoft.KeyVault/stable/2025-07-01/secrets.json
-  - Microsoft.KeyVault/stable/2025-07-01/securitydomain.json
-  - Microsoft.KeyVault/stable/2025-07-01/settings.json
-  - Microsoft.KeyVault/stable/2025-07-01/storage.json
+  - stable/2025-07-01/backuprestore.json
+  - stable/2025-07-01/certificates.json
+  - stable/2025-07-01/common.json
+  - stable/2025-07-01/keys.json
+  - stable/2025-07-01/rbac.json
+  - stable/2025-07-01/secrets.json
+  - stable/2025-07-01/securitydomain.json
+  - stable/2025-07-01/settings.json
+  - stable/2025-07-01/storage.json
 ```
 
 ### Tag: package-preview-2025-06-01-preview
@@ -52,15 +52,15 @@ These settings apply only when `--tag=package-preview-2025-06-01-preview` is spe
 
 ```yaml $(tag) == 'package-preview-2025-06-01-preview'
 input-file:
-  - Microsoft.KeyVault/preview/2025-06-01-preview/backuprestore.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/certificates.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/common.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/keys.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/rbac.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/secrets.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/securitydomain.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/settings.json
-  - Microsoft.KeyVault/preview/2025-06-01-preview/storage.json
+  - preview/2025-06-01-preview/backuprestore.json
+  - preview/2025-06-01-preview/certificates.json
+  - preview/2025-06-01-preview/common.json
+  - preview/2025-06-01-preview/keys.json
+  - preview/2025-06-01-preview/rbac.json
+  - preview/2025-06-01-preview/secrets.json
+  - preview/2025-06-01-preview/securitydomain.json
+  - preview/2025-06-01-preview/settings.json
+  - preview/2025-06-01-preview/storage.json
 ```
 
 ### Tag: package-7.6
@@ -69,15 +69,15 @@ These settings apply only when `--tag=package-7.6` is specified on the command l
 
 ```yaml $(tag) == 'package-7.6'
 input-file:
-  - Microsoft.KeyVault/stable/7.6/backuprestore.json
-  - Microsoft.KeyVault/stable/7.6/certificates.json
-  - Microsoft.KeyVault/stable/7.6/common.json
-  - Microsoft.KeyVault/stable/7.6/keys.json
-  - Microsoft.KeyVault/stable/7.6/rbac.json
-  - Microsoft.KeyVault/stable/7.6/secrets.json
-  - Microsoft.KeyVault/stable/7.6/securitydomain.json
-  - Microsoft.KeyVault/stable/7.6/settings.json
-  - Microsoft.KeyVault/stable/7.6/storage.json
+  - stable/7.6/backuprestore.json
+  - stable/7.6/certificates.json
+  - stable/7.6/common.json
+  - stable/7.6/keys.json
+  - stable/7.6/rbac.json
+  - stable/7.6/secrets.json
+  - stable/7.6/securitydomain.json
+  - stable/7.6/settings.json
+  - stable/7.6/storage.json
 ```
 
 ### Tag: package-preview-7.6-preview.2
@@ -86,15 +86,15 @@ These settings apply only when `--tag=package-preview-7.6-preview.2` is specifie
 
 ``` yaml $(tag) == 'package-preview-7.6-preview.2'
 input-file:
-  - Microsoft.KeyVault/preview/7.6-preview.2/backuprestore.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/certificates.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/common.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/keys.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/rbac.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/secrets.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/securitydomain.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/settings.json
-  - Microsoft.KeyVault/preview/7.6-preview.2/storage.json
+  - preview/7.6-preview.2/backuprestore.json
+  - preview/7.6-preview.2/certificates.json
+  - preview/7.6-preview.2/common.json
+  - preview/7.6-preview.2/keys.json
+  - preview/7.6-preview.2/rbac.json
+  - preview/7.6-preview.2/secrets.json
+  - preview/7.6-preview.2/securitydomain.json
+  - preview/7.6-preview.2/settings.json
+  - preview/7.6-preview.2/storage.json
 ```
 
 ### Tag: package-preview-7.6-preview.1
@@ -103,15 +103,15 @@ These settings apply only when `--tag=package-preview-7.6-preview.1` is specifie
 
 ``` yaml $(tag) == 'package-preview-7.6-preview.1'
 input-file:
-  - Microsoft.KeyVault/preview/7.6-preview.1/backuprestore.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/certificates.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/common.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/keys.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/rbac.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/secrets.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/securitydomain.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/settings.json
-  - Microsoft.KeyVault/preview/7.6-preview.1/storage.json
+  - preview/7.6-preview.1/backuprestore.json
+  - preview/7.6-preview.1/certificates.json
+  - preview/7.6-preview.1/common.json
+  - preview/7.6-preview.1/keys.json
+  - preview/7.6-preview.1/rbac.json
+  - preview/7.6-preview.1/secrets.json
+  - preview/7.6-preview.1/securitydomain.json
+  - preview/7.6-preview.1/settings.json
+  - preview/7.6-preview.1/storage.json
 ```
 
 ### Tag: package-7.5
@@ -120,15 +120,15 @@ These settings apply only when `--tag=package-7.5` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.5'
 input-file:
-  - Microsoft.KeyVault/stable/7.5/backuprestore.json
-  - Microsoft.KeyVault/stable/7.5/certificates.json
-  - Microsoft.KeyVault/stable/7.5/common.json
-  - Microsoft.KeyVault/stable/7.5/keys.json
-  - Microsoft.KeyVault/stable/7.5/rbac.json
-  - Microsoft.KeyVault/stable/7.5/secrets.json
-  - Microsoft.KeyVault/stable/7.5/securitydomain.json
-  - Microsoft.KeyVault/stable/7.5/settings.json
-  - Microsoft.KeyVault/stable/7.5/storage.json
+  - stable/7.5/backuprestore.json
+  - stable/7.5/certificates.json
+  - stable/7.5/common.json
+  - stable/7.5/keys.json
+  - stable/7.5/rbac.json
+  - stable/7.5/secrets.json
+  - stable/7.5/securitydomain.json
+  - stable/7.5/settings.json
+  - stable/7.5/storage.json
 ```
 ### Tag: package-preview-7.5-preview.1
 
@@ -136,15 +136,15 @@ These settings apply only when `--tag=package-preview-7.5-preview.1` is specifie
 
 ``` yaml $(tag) == 'package-preview-7.5-preview.1'
 input-file:
-  - Microsoft.KeyVault/preview/7.5-preview.1/backuprestore.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/certificates.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/common.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/keys.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/rbac.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/secrets.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/securitydomain.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/settings.json
-  - Microsoft.KeyVault/preview/7.5-preview.1/storage.json
+  - preview/7.5-preview.1/backuprestore.json
+  - preview/7.5-preview.1/certificates.json
+  - preview/7.5-preview.1/common.json
+  - preview/7.5-preview.1/keys.json
+  - preview/7.5-preview.1/rbac.json
+  - preview/7.5-preview.1/secrets.json
+  - preview/7.5-preview.1/securitydomain.json
+  - preview/7.5-preview.1/settings.json
+  - preview/7.5-preview.1/storage.json
 ```
 
 ### Tag: package-7.4
@@ -153,15 +153,15 @@ These settings apply only when `--tag=package-7.4` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.4'
 input-file:
-  - Microsoft.KeyVault/stable/7.4/backuprestore.json
-  - Microsoft.KeyVault/stable/7.4/certificates.json
-  - Microsoft.KeyVault/stable/7.4/common.json
-  - Microsoft.KeyVault/stable/7.4/keys.json
-  - Microsoft.KeyVault/stable/7.4/rbac.json
-  - Microsoft.KeyVault/stable/7.4/secrets.json
-  - Microsoft.KeyVault/stable/7.4/securitydomain.json
-  - Microsoft.KeyVault/stable/7.4/settings.json
-  - Microsoft.KeyVault/stable/7.4/storage.json
+  - stable/7.4/backuprestore.json
+  - stable/7.4/certificates.json
+  - stable/7.4/common.json
+  - stable/7.4/keys.json
+  - stable/7.4/rbac.json
+  - stable/7.4/secrets.json
+  - stable/7.4/securitydomain.json
+  - stable/7.4/settings.json
+  - stable/7.4/storage.json
 ```
 
 ### Tag: package-preview-7.4-preview.1
@@ -170,15 +170,15 @@ These settings apply only when `--tag=package-preview-7.4-preview.1` is specifie
 
 ``` yaml $(tag) == 'package-preview-7.4-preview.1'
 input-file:
-  - Microsoft.KeyVault/preview/7.4-preview.1/backuprestore.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/certificates.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/common.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/keys.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/rbac.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/secrets.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/securitydomain.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/settings.json
-  - Microsoft.KeyVault/preview/7.4-preview.1/storage.json
+  - preview/7.4-preview.1/backuprestore.json
+  - preview/7.4-preview.1/certificates.json
+  - preview/7.4-preview.1/common.json
+  - preview/7.4-preview.1/keys.json
+  - preview/7.4-preview.1/rbac.json
+  - preview/7.4-preview.1/secrets.json
+  - preview/7.4-preview.1/securitydomain.json
+  - preview/7.4-preview.1/settings.json
+  - preview/7.4-preview.1/storage.json
 ```
 
 ### Tag: package-7.3
@@ -187,14 +187,14 @@ These settings apply only when `--tag=package-7.3` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.3'
 input-file:
-  - Microsoft.KeyVault/stable/7.3/backuprestore.json
-  - Microsoft.KeyVault/stable/7.3/certificates.json
-  - Microsoft.KeyVault/stable/7.3/common.json
-  - Microsoft.KeyVault/stable/7.3/keys.json
-  - Microsoft.KeyVault/stable/7.3/rbac.json
-  - Microsoft.KeyVault/stable/7.3/secrets.json
-  - Microsoft.KeyVault/stable/7.3/securitydomain.json
-  - Microsoft.KeyVault/stable/7.3/storage.json
+  - stable/7.3/backuprestore.json
+  - stable/7.3/certificates.json
+  - stable/7.3/common.json
+  - stable/7.3/keys.json
+  - stable/7.3/rbac.json
+  - stable/7.3/secrets.json
+  - stable/7.3/securitydomain.json
+  - stable/7.3/storage.json
 ```
 
 ### Tag: package-preview-7.3-preview
@@ -203,14 +203,14 @@ These settings apply only when `--tag=package-preview-7.3-preview` is specified 
 
 ``` yaml $(tag) == 'package-preview-7.3-preview'
 input-file:
-  - Microsoft.KeyVault/preview/7.3-preview/backuprestore.json
-  - Microsoft.KeyVault/preview/7.3-preview/certificates.json
-  - Microsoft.KeyVault/preview/7.3-preview/common.json
-  - Microsoft.KeyVault/preview/7.3-preview/keys.json
-  - Microsoft.KeyVault/preview/7.3-preview/rbac.json
-  - Microsoft.KeyVault/preview/7.3-preview/secrets.json
-  - Microsoft.KeyVault/preview/7.3-preview/securitydomain.json
-  - Microsoft.KeyVault/preview/7.3-preview/storage.json
+  - preview/7.3-preview/backuprestore.json
+  - preview/7.3-preview/certificates.json
+  - preview/7.3-preview/common.json
+  - preview/7.3-preview/keys.json
+  - preview/7.3-preview/rbac.json
+  - preview/7.3-preview/secrets.json
+  - preview/7.3-preview/securitydomain.json
+  - preview/7.3-preview/storage.json
 ```
 
 ### Tag: package-7.2
@@ -219,14 +219,14 @@ These settings apply only when `--tag=package-7.2` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.2'
 input-file:
-- Microsoft.KeyVault/stable/7.2/certificates.json
-- Microsoft.KeyVault/stable/7.2/common.json
-- Microsoft.KeyVault/stable/7.2/keys.json
-- Microsoft.KeyVault/stable/7.2/rbac.json
-- Microsoft.KeyVault/stable/7.2/secrets.json
-- Microsoft.KeyVault/stable/7.2/storage.json
-- Microsoft.KeyVault/stable/7.2/backuprestore.json
-- Microsoft.KeyVault/stable/7.2/securitydomain.json
+- stable/7.2/certificates.json
+- stable/7.2/common.json
+- stable/7.2/keys.json
+- stable/7.2/rbac.json
+- stable/7.2/secrets.json
+- stable/7.2/storage.json
+- stable/7.2/backuprestore.json
+- stable/7.2/securitydomain.json
 ```
 
 ### Tag: package-7.2-preview
@@ -235,14 +235,14 @@ These settings apply only when `--tag=package-7.2-preview` is specified on the c
 
 ``` yaml $(tag) == 'package-7.2-preview'
 input-file:
-- Microsoft.KeyVault/preview/7.2-preview/certificates.json
-- Microsoft.KeyVault/preview/7.2-preview/common.json
-- Microsoft.KeyVault/preview/7.2-preview/keys.json
-- Microsoft.KeyVault/preview/7.2-preview/rbac.json
-- Microsoft.KeyVault/preview/7.2-preview/secrets.json
-- Microsoft.KeyVault/preview/7.2-preview/storage.json
-- Microsoft.KeyVault/preview/7.2-preview/backuprestore.json
-- Microsoft.KeyVault/preview/7.2-preview/securitydomain.json
+- preview/7.2-preview/certificates.json
+- preview/7.2-preview/common.json
+- preview/7.2-preview/keys.json
+- preview/7.2-preview/rbac.json
+- preview/7.2-preview/secrets.json
+- preview/7.2-preview/storage.json
+- preview/7.2-preview/backuprestore.json
+- preview/7.2-preview/securitydomain.json
 ```
 
 ### Tag: package-7.1
@@ -251,11 +251,11 @@ These settings apply only when `--tag=package-7.1` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.1'
 input-file:
-- Microsoft.KeyVault/stable/7.1/certificates.json
-- Microsoft.KeyVault/stable/7.1/common.json
-- Microsoft.KeyVault/stable/7.1/keys.json
-- Microsoft.KeyVault/stable/7.1/secrets.json
-- Microsoft.KeyVault/stable/7.1/storage.json
+- stable/7.1/certificates.json
+- stable/7.1/common.json
+- stable/7.1/keys.json
+- stable/7.1/secrets.json
+- stable/7.1/storage.json
 ```
 
 ### Tag: package-7.1-preview
@@ -264,11 +264,11 @@ These settings apply only when `--tag=package-7.1-preview` is specified on the c
 
 ``` yaml $(tag) == 'package-7.1-preview'
 input-file:
-- Microsoft.KeyVault/preview/7.1/certificates.json
-- Microsoft.KeyVault/preview/7.1/common.json
-- Microsoft.KeyVault/preview/7.1/keys.json
-- Microsoft.KeyVault/preview/7.1/secrets.json
-- Microsoft.KeyVault/preview/7.1/storage.json
+- preview/7.1/certificates.json
+- preview/7.1/common.json
+- preview/7.1/keys.json
+- preview/7.1/secrets.json
+- preview/7.1/storage.json
 ```
 
 ### Tag: package-7.0
@@ -277,7 +277,7 @@ These settings apply only when `--tag=package-7.0` is specified on the command l
 
 ``` yaml $(tag) == 'package-7.0'
 input-file:
-- Microsoft.KeyVault/stable/7.0/keyvault.json
+- stable/7.0/keyvault.json
 ```
 
 ### Tag: package-7.0-preview
@@ -286,7 +286,7 @@ These settings apply only when `--tag=package-7.0-preview` is specified on the c
 
 ``` yaml $(tag) == 'package-7.0-preview'
 input-file:
-- Microsoft.KeyVault/preview/7.0/keyvault.json
+- preview/7.0/keyvault.json
 ```
 
 ### Tag: package-2016-10
@@ -295,7 +295,7 @@ These settings apply only when `--tag=package-2016-10` is specified on the comma
 
 ``` yaml $(tag) == 'package-2016-10'
 input-file:
-- Microsoft.KeyVault/stable/2016-10-01/keyvault.json
+- stable/2016-10-01/keyvault.json
 ```
 
 ### Tag: package-2015-06
@@ -304,7 +304,7 @@ These settings apply only when `--tag=package-2015-06` is specified on the comma
 
 ``` yaml $(tag) == 'package-2015-06'
 input-file:
-- Microsoft.KeyVault/stable/2015-06-01/keyvault.json
+- stable/2015-06-01/keyvault.json
 ```
 
 ---
@@ -374,36 +374,36 @@ require: $(this-folder)/../../../profiles/readme.md
 
 # all the input files across all versions
 input-file:
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/certificates.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/common.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/keys.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/rbac.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/secrets.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/storage.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/backuprestore.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.3-preview/securitydomain.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/certificates.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/common.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/keys.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/rbac.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/secrets.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/storage.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/backuprestore.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.2-preview/securitydomain.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.1/certificates.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.1/common.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.1/keys.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.1/secrets.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.1/storage.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.1/certificates.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.1/common.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.1/keys.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.1/secrets.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.1/storage.json
-  - $(this-folder)/Microsoft.KeyVault/stable/7.0/keyvault.json
-  - $(this-folder)/Microsoft.KeyVault/preview/7.0/keyvault.json
-  - $(this-folder)/Microsoft.KeyVault/stable/2016-10-01/keyvault.json
-  - $(this-folder)/Microsoft.KeyVault/stable/2015-06-01/keyvault.json
+  - $(this-folder)/preview/7.3-preview/certificates.json
+  - $(this-folder)/preview/7.3-preview/common.json
+  - $(this-folder)/preview/7.3-preview/keys.json
+  - $(this-folder)/preview/7.3-preview/rbac.json
+  - $(this-folder)/preview/7.3-preview/secrets.json
+  - $(this-folder)/preview/7.3-preview/storage.json
+  - $(this-folder)/preview/7.3-preview/backuprestore.json
+  - $(this-folder)/preview/7.3-preview/securitydomain.json
+  - $(this-folder)/preview/7.2-preview/certificates.json
+  - $(this-folder)/preview/7.2-preview/common.json
+  - $(this-folder)/preview/7.2-preview/keys.json
+  - $(this-folder)/preview/7.2-preview/rbac.json
+  - $(this-folder)/preview/7.2-preview/secrets.json
+  - $(this-folder)/preview/7.2-preview/storage.json
+  - $(this-folder)/preview/7.2-preview/backuprestore.json
+  - $(this-folder)/preview/7.2-preview/securitydomain.json
+  - $(this-folder)/stable/7.1/certificates.json
+  - $(this-folder)/stable/7.1/common.json
+  - $(this-folder)/stable/7.1/keys.json
+  - $(this-folder)/stable/7.1/secrets.json
+  - $(this-folder)/stable/7.1/storage.json
+  - $(this-folder)/preview/7.1/certificates.json
+  - $(this-folder)/preview/7.1/common.json
+  - $(this-folder)/preview/7.1/keys.json
+  - $(this-folder)/preview/7.1/secrets.json
+  - $(this-folder)/preview/7.1/storage.json
+  - $(this-folder)/stable/7.0/keyvault.json
+  - $(this-folder)/preview/7.0/keyvault.json
+  - $(this-folder)/stable/2016-10-01/keyvault.json
+  - $(this-folder)/stable/2015-06-01/keyvault.json
 
 ```
 
@@ -412,7 +412,7 @@ uncomment the  `exclude-file` section below and add the file paths.
 
 ``` yaml $(tag) == 'all-api-versions'
 #exclude-file:
-#  - $(this-folder)/Microsoft.Example/stable/2010-01-01/somefile.json
+#  - $(this-folder)/stable/2010-01-01/somefile.json
 ```
 
 ## Suppression
