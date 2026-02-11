@@ -60,10 +60,10 @@ directive:
       };
       $.allOf = [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         },
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Location"
+          "$ref": "./common/v1/types.json#/definitions/Location"
         }
       ]
 ```
