@@ -48,10 +48,10 @@
         "operationId": "DefenderForStorage_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/DefenderForStorageSettingName"
@@ -67,7 +67,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -85,10 +85,10 @@
         "operationId": "DefenderForStorage_Create",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/DefenderForStorageSettingName"
@@ -113,7 +113,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -135,10 +135,10 @@
         "operationId": "DefenderForStorage_StartMalwareScan",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/DefenderForStorageSettingName"
@@ -154,7 +154,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -176,10 +176,10 @@
         "operationId": "DefenderForStorage_CancelMalwareScan",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/DefenderForStorageSettingName"
@@ -198,7 +198,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -220,10 +220,10 @@
         "operationId": "DefenderForStorage_GetMalwareScan",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/DefenderForStorageSettingName"
@@ -242,7 +242,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -254,7 +254,7 @@
       "type": "object",
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ],
       "properties": {

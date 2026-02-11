@@ -51,10 +51,10 @@
         "operationId": "IotSecuritySolution_ListBySubscription",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
             "$ref": "#/parameters/FilterParam"
@@ -70,7 +70,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -96,13 +96,13 @@
         "operationId": "IotSecuritySolution_ListByResourceGroup",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
             "$ref": "#/parameters/FilterParam"
@@ -118,7 +118,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -141,13 +141,13 @@
         "operationId": "IotSecuritySolution_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
             "$ref": "#/parameters/SolutionName"
@@ -163,7 +163,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -181,13 +181,13 @@
         "operationId": "IotSecuritySolution_CreateOrUpdate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
             "$ref": "#/parameters/SolutionName"
@@ -212,7 +212,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -230,13 +230,13 @@
         "operationId": "IotSecuritySolution_Update",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
             "$ref": "#/parameters/SolutionName"
@@ -255,7 +255,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -273,13 +273,13 @@
         "operationId": "IotSecuritySolution_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
             "$ref": "#/parameters/SolutionName"
@@ -295,7 +295,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -352,12 +352,12 @@
           "readOnly": true,
           "type": "object",
           "description": "Azure Resource Manager metadata containing createdBy and modifiedBy information.",
-          "$ref": "../../../../../common-types/resource-management/v2/types.json#/definitions/systemData"
+          "$ref": "../../../../../../common-types/resource-management/v2/types.json#/definitions/systemData"
         }
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         },
         {
           "$ref": "#/definitions/TagsResource"

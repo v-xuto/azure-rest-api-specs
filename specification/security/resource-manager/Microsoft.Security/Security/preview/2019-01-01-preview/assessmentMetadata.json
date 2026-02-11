@@ -48,7 +48,7 @@
         "operationId": "AssessmentsMetadata_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -61,7 +61,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -84,7 +84,7 @@
         "operationId": "AssessmentsMetadata_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/AssessmentsMetadataName"
@@ -100,7 +100,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -120,10 +120,10 @@
         "operationId": "AssessmentsMetadataSubscription_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           }
         ],
         "responses": {
@@ -136,7 +136,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -159,13 +159,13 @@
         "operationId": "AssessmentsMetadataSubscription_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/AssessmentsMetadataName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           }
         ],
         "responses": {
@@ -178,7 +178,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -196,13 +196,13 @@
         "operationId": "AssessmentsMetadataSubscription_Create",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/AssessmentsMetadataName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
             "$ref": "#/parameters/SecurityAssessmentMetadata"
@@ -218,7 +218,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -236,13 +236,13 @@
         "operationId": "AssessmentsMetadataSubscription_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/AssessmentsMetadataName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           }
         ],
         "responses": {
@@ -252,7 +252,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -289,7 +289,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

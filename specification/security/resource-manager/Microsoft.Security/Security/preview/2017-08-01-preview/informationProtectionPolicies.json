@@ -51,10 +51,10 @@
         "operationId": "InformationProtectionPolicies_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/Scope"
+            "$ref": "./common/v1/types.json#/parameters/Scope"
           },
           {
             "$ref": "#/parameters/InformationProtectionPolicyName"
@@ -70,7 +70,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -88,10 +88,10 @@
         "operationId": "InformationProtectionPolicies_CreateOrUpdate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/Scope"
+            "$ref": "./common/v1/types.json#/parameters/Scope"
           },
           {
             "$ref": "#/parameters/InformationProtectionPolicyName"
@@ -116,7 +116,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -136,10 +136,10 @@
         "operationId": "InformationProtectionPolicies_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/Scope"
+            "$ref": "./common/v1/types.json#/parameters/Scope"
           }
         ],
         "responses": {
@@ -152,7 +152,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -194,7 +194,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

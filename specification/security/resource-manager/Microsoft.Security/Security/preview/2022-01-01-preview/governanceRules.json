@@ -54,7 +54,7 @@
         "operationId": "GovernanceRules_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -70,7 +70,7 @@
           "default": {
             "description": "Error response describing why the operation failed",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -99,7 +99,7 @@
         "operationId": "GovernanceRules_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -118,7 +118,7 @@
           "default": {
             "description": "Error response describing why the operation failed",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -142,7 +142,7 @@
         "operationId": "GovernanceRules_CreateOrUpdate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -170,7 +170,7 @@
           "default": {
             "description": "Error response describing why the operation failed",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -194,7 +194,7 @@
         "operationId": "GovernanceRules_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -249,7 +249,7 @@
         "operationId": "GovernanceRules_Execute",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -274,7 +274,7 @@
           "default": {
             "description": "Error response describing why the operation failed",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -304,7 +304,7 @@
         "operationId": "GovernanceRules_OperationResults",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/Scope"
@@ -335,7 +335,7 @@
           "default": {
             "description": "Error response describing why the operation failed",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -374,7 +374,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

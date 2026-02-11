@@ -48,13 +48,13 @@
         "operationId": "Tasks_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           }
         ],
         "responses": {
@@ -67,7 +67,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -90,16 +90,16 @@
         "operationId": "Tasks_ListByHomeRegion",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           }
         ],
         "responses": {
@@ -112,7 +112,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -135,13 +135,13 @@
         "operationId": "Tasks_GetSubscriptionLevelTask",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/TaskName"
@@ -157,7 +157,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -177,13 +177,13 @@
         "operationId": "Tasks_UpdateSubscriptionLevelTaskState",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/TaskName"
@@ -199,7 +199,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -219,19 +219,19 @@
         "operationId": "Tasks_ListByResourceGroup",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           }
         ],
         "responses": {
@@ -244,7 +244,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -267,16 +267,16 @@
         "operationId": "Tasks_GetResourceGroupLevelTask",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/TaskName"
@@ -292,7 +292,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -312,16 +312,16 @@
         "operationId": "Tasks_UpdateResourceGroupLevelTaskState",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/TaskName"
@@ -337,7 +337,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -374,7 +374,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

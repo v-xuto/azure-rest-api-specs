@@ -66,10 +66,10 @@
         "operationId": "Pricings_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ScopeId"
+            "$ref": "./common/v1/types.json#/parameters/ScopeId"
           },
           {
             "$ref": "#/parameters/PricingName"
@@ -85,7 +85,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -118,10 +118,10 @@
         "operationId": "Pricings_Update",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ScopeId"
+            "$ref": "./common/v1/types.json#/parameters/ScopeId"
           },
           {
             "$ref": "#/parameters/PricingName"
@@ -146,7 +146,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -167,10 +167,10 @@
         "operationId": "Pricings_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ScopeResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ScopeResourceId"
           },
           {
             "$ref": "#/parameters/PricingName"
@@ -186,7 +186,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -212,13 +212,13 @@
         "operationId": "Pricings_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ScopeId"
+            "$ref": "./common/v1/types.json#/parameters/ScopeId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           }
         ],
         "responses": {
@@ -231,7 +231,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -267,7 +267,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

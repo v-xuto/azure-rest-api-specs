@@ -48,10 +48,10 @@
         "operationId": "ExternalSecuritySolutions_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           }
         ],
         "responses": {
@@ -64,7 +64,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -87,13 +87,13 @@
         "operationId": "ExternalSecuritySolutions_ListByHomeRegion",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -106,7 +106,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -129,19 +129,19 @@
         "operationId": "ExternalSecuritySolutions_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/ExternalSecuritySolutionsName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -154,7 +154,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -187,13 +187,13 @@
       "properties": {},
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         },
         {
           "$ref": "#/definitions/ExternalSecuritySolutionKind"
         },
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Location"
+          "$ref": "./common/v1/types.json#/definitions/Location"
         }
       ]
     },

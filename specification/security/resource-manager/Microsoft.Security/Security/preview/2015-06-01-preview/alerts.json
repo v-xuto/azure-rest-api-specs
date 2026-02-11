@@ -48,19 +48,19 @@
         "operationId": "Alerts_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataSelect"
+            "$ref": "./common/v1/types.json#/parameters/ODataSelect"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataExpand"
+            "$ref": "./common/v1/types.json#/parameters/ODataExpand"
           }
         ],
         "responses": {
@@ -73,7 +73,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -96,22 +96,22 @@
         "operationId": "Alerts_ListByResourceGroup",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataSelect"
+            "$ref": "./common/v1/types.json#/parameters/ODataSelect"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataExpand"
+            "$ref": "./common/v1/types.json#/parameters/ODataExpand"
           }
         ],
         "responses": {
@@ -124,7 +124,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -147,22 +147,22 @@
         "operationId": "Alerts_ListSubscriptionLevelAlertsByRegion",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataSelect"
+            "$ref": "./common/v1/types.json#/parameters/ODataSelect"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataExpand"
+            "$ref": "./common/v1/types.json#/parameters/ODataExpand"
           }
         ],
         "responses": {
@@ -175,7 +175,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -198,25 +198,25 @@
         "operationId": "Alerts_ListResourceGroupLevelAlertsByRegion",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataFilter"
+            "$ref": "./common/v1/types.json#/parameters/ODataFilter"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataSelect"
+            "$ref": "./common/v1/types.json#/parameters/ODataSelect"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ODataExpand"
+            "$ref": "./common/v1/types.json#/parameters/ODataExpand"
           }
         ],
         "responses": {
@@ -229,7 +229,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -252,13 +252,13 @@
         "operationId": "Alerts_GetSubscriptionLevelAlert",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
@@ -274,7 +274,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -294,19 +294,19 @@
         "operationId": "Alerts_GetResourceGroupLevelAlerts",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           }
         ],
         "responses": {
@@ -319,7 +319,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -339,13 +339,13 @@
         "operationId": "Alerts_UpdateSubscriptionLevelAlertStateToDismiss",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
@@ -358,7 +358,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -378,13 +378,13 @@
         "operationId": "Alerts_UpdateSubscriptionLevelAlertStateToReactivate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
@@ -397,7 +397,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -417,19 +417,19 @@
         "operationId": "Alerts_UpdateResourceGroupLevelAlertStateToDismiss",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           }
         ],
         "responses": {
@@ -439,7 +439,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -459,19 +459,19 @@
         "operationId": "Alerts_UpdateResourceGroupLevelAlertStateToReactivate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/AlertName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           }
         ],
         "responses": {
@@ -481,7 +481,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -517,7 +517,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },

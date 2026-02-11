@@ -48,10 +48,10 @@
         "operationId": "Assessments_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/Scope"
+            "$ref": "./common/v1/types.json#/parameters/Scope"
           }
         ],
         "responses": {
@@ -64,7 +64,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -90,10 +90,10 @@
         "operationId": "Assessments_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/AssessmentName"
@@ -112,7 +112,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -130,10 +130,10 @@
         "operationId": "Assessments_CreateOrUpdate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/AssessmentName"
@@ -158,7 +158,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -176,10 +176,10 @@
         "operationId": "Assessments_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceId"
+            "$ref": "./common/v1/types.json#/parameters/ResourceId"
           },
           {
             "$ref": "#/parameters/AssessmentName"
@@ -195,7 +195,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -233,7 +233,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },
@@ -248,7 +248,7 @@
       },
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         }
       ]
     },
@@ -405,7 +405,7 @@
           }
         },
         "resourceDetails": {
-          "$ref": "../../../common/v1/types.json#/definitions/ResourceDetails"
+          "$ref": "./common/v1/types.json#/definitions/ResourceDetails"
         },
         "displayName": {
           "readOnly": true,

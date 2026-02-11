@@ -48,10 +48,10 @@
         "operationId": "JitNetworkAccessPolicies_List",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -64,7 +64,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -87,13 +87,13 @@
         "operationId": "JitNetworkAccessPolicies_ListByRegion",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -106,7 +106,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -129,13 +129,13 @@
         "operationId": "JitNetworkAccessPolicies_ListByResourceGroup",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -148,7 +148,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -174,16 +174,16 @@
         ],
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -196,7 +196,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         },
@@ -219,19 +219,19 @@
         "operationId": "JitNetworkAccessPolicies_Get",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicyName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -244,7 +244,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -262,19 +262,19 @@
         "operationId": "JitNetworkAccessPolicies_CreateOrUpdate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicyName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicy"
@@ -290,7 +290,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -308,19 +308,19 @@
         "operationId": "JitNetworkAccessPolicies_Delete",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicyName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           }
         ],
         "responses": {
@@ -333,7 +333,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -353,13 +353,13 @@
         "operationId": "JitNetworkAccessPolicies_Initiate",
         "parameters": [
           {
-            "$ref": "../../../common/v1/types.json#/parameters/SubscriptionId"
+            "$ref": "./common/v1/types.json#/parameters/SubscriptionId"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ResourceGroupName"
+            "$ref": "./common/v1/types.json#/parameters/ResourceGroupName"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/AscLocation"
+            "$ref": "./common/v1/types.json#/parameters/AscLocation"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicyName"
@@ -368,7 +368,7 @@
             "$ref": "#/parameters/JitNetworkAccessPolicyInitiateType"
           },
           {
-            "$ref": "../../../common/v1/types.json#/parameters/ApiVersion"
+            "$ref": "./common/v1/types.json#/parameters/ApiVersion"
           },
           {
             "$ref": "#/parameters/JitNetworkAccessPolicyInitiateRequest"
@@ -384,7 +384,7 @@
           "default": {
             "description": "Error response describing why the operation failed.",
             "schema": {
-              "$ref": "../../../common/v1/types.json#/definitions/CloudError"
+              "$ref": "./common/v1/types.json#/definitions/CloudError"
             }
           }
         }
@@ -421,13 +421,13 @@
       ],
       "allOf": [
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Resource"
+          "$ref": "./common/v1/types.json#/definitions/Resource"
         },
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Kind"
+          "$ref": "./common/v1/types.json#/definitions/Kind"
         },
         {
-          "$ref": "../../../common/v1/types.json#/definitions/Location"
+          "$ref": "./common/v1/types.json#/definitions/Location"
         }
       ]
     },
