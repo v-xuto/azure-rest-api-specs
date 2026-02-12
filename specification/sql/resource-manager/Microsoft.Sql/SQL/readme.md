@@ -2297,6 +2297,7 @@ APIs must only be added to this section when the API is publicly available in at
 
 ``` yaml $(tag) == 'package-2015-05-preview'
 input-file:
+- stable/2015-05-01/capabilities.json
 - preview/2015-05-01-preview/blobAuditing.json
 - preview/2015-05-01-preview/encryptionProtectors.json
 - preview/2015-05-01-preview/failoverGroups.json
