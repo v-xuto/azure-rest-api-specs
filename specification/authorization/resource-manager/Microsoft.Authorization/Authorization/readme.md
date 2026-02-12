@@ -394,7 +394,7 @@ These settings apply only when `--tag=package-2020-08-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2020-08-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-01-01-preview/authorization-RoleDefinitionsCalls.json
@@ -409,7 +409,7 @@ These settings apply only when `--tag=package-2020-04-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2020-04-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-01-01-preview/authorization-RoleDefinitionsCalls.json
@@ -433,7 +433,7 @@ These settings apply only when `--tag=package-2020-03-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2020-03-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-01-01-preview/authorization-RoleDefinitionsCalls.json
@@ -470,7 +470,7 @@ These settings apply only when `--tag=package-2018-09-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2018-09-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-09-01-preview/authorization-RoleAssignmentsCalls.json
@@ -493,7 +493,7 @@ These settings apply only when `--tag=package-2018-07-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2018-07-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-01-01-preview/authorization-RoleAssignmentsCalls.json
@@ -525,7 +525,7 @@ These settings apply only when `--tag=package-2018-01-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2018-01-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
 - preview/2018-01-01-preview/authorization-ProviderOperationsCalls.json
 - preview/2018-01-01-preview/authorization-RoleAssignmentsCalls.json
@@ -549,7 +549,7 @@ These settings apply only when `--tag=package-2017-10-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2017-10-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 - stable/2015-07-01/authorization-RoleDefinitionsCalls.json
 - stable/2015-07-01/authorization-ProviderOperationsCalls.json
 - stable/2015-07-01/authorization-ElevateAccessCalls.json
@@ -584,7 +584,7 @@ These settings apply only when `--tag=package-2015-06-01-preview` is specified o
 
 ``` yaml $(tag) == 'package-2015-06-01-preview'
 input-file:
-- preview/2015-06-01/authorization-ClassicAdminCalls.json
+- stable/2015-06-01/authorization-ClassicAdminCalls.json
 ```
 
 ---
