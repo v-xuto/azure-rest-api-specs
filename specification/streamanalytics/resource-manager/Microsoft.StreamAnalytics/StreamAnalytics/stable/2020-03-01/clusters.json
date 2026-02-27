@@ -56,22 +56,22 @@
             }
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/IfMatchHeader"
+            "$ref": "./common/v1/definitions.json#/parameters/IfMatchHeader"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/IfNoneMatchHeader"
+            "$ref": "./common/v1/definitions.json#/parameters/IfNoneMatchHeader"
           }
         ],
         "responses": {
@@ -90,7 +90,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -118,19 +118,19 @@
             }
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/IfMatchHeader"
+            "$ref": "./common/v1/definitions.json#/parameters/IfMatchHeader"
           }
         ],
         "responses": {
@@ -146,7 +146,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -165,16 +165,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -187,7 +187,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -205,16 +205,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -230,7 +230,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -251,10 +251,10 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -267,7 +267,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -290,13 +290,13 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -309,7 +309,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -332,16 +332,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -354,7 +354,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -370,7 +370,7 @@
       "description": "A Stream Analytics Cluster object",
       "allOf": [
         {
-          "$ref": "../../common/v1/definitions.json#/definitions/TrackedResource"
+          "$ref": "./common/v1/definitions.json#/definitions/TrackedResource"
         }
       ],
       "properties": {

@@ -56,10 +56,10 @@
             }
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "./clusters.json#/parameters/ClusterNameParameter"
@@ -68,13 +68,13 @@
             "$ref": "#/parameters/PrivateEndpointNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/IfMatchHeader"
+            "$ref": "./common/v1/definitions.json#/parameters/IfMatchHeader"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/IfNoneMatchHeader"
+            "$ref": "./common/v1/definitions.json#/parameters/IfNoneMatchHeader"
           }
         ],
         "responses": {
@@ -93,7 +93,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -111,10 +111,10 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "./clusters.json#/parameters/ClusterNameParameter"
@@ -123,7 +123,7 @@
             "$ref": "#/parameters/PrivateEndpointNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -136,7 +136,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -154,10 +154,10 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "./clusters.json#/parameters/ClusterNameParameter"
@@ -166,7 +166,7 @@
             "$ref": "#/parameters/PrivateEndpointNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -182,7 +182,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -203,16 +203,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
             "$ref": "./clusters.json#/parameters/ClusterNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -225,7 +225,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -241,7 +241,7 @@
       "description": "Complete information about the private endpoint.",
       "allOf": [
         {
-          "$ref": "../../common/v1/definitions.json#/definitions/ProxyResource"
+          "$ref": "./common/v1/definitions.json#/definitions/ProxyResource"
         }
       ],
       "properties": {

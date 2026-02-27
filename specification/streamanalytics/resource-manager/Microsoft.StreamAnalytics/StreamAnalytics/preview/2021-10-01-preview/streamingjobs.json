@@ -47,7 +47,7 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -60,7 +60,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -114,16 +114,16 @@
             "description": "Set to '*' to allow a new streaming job to be created, but to prevent updating an existing record set. Other values will result in a 412 Pre-condition Failed response."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -154,7 +154,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -190,16 +190,16 @@
             "description": "The ETag of the streaming job. Omit this value to always overwrite the current record set. Specify the last-seen ETag value to prevent accidentally overwriting concurrent changes."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -218,7 +218,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -236,16 +236,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -261,7 +261,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -290,16 +290,16 @@
             "description": "The $expand OData query parameter. This is a comma-separated list of additional streaming job properties to include in the response, beyond the default set returned when this parameter is absent. The default set is all streaming job properties other than 'inputs', 'transformation', 'outputs', and 'functions'."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -318,7 +318,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -348,13 +348,13 @@
             "description": "The $expand OData query parameter. This is a comma-separated list of additional streaming job properties to include in the response, beyond the default set returned when this parameter is absent. The default set is all streaming job properties other than 'inputs', 'transformation', 'outputs', and 'functions'."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           }
         ],
         "responses": {
@@ -367,7 +367,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -400,10 +400,10 @@
             "description": "The $expand OData query parameter. This is a comma-separated list of additional streaming job properties to include in the response, beyond the default set returned when this parameter is absent. The default set is all streaming job properties other than 'inputs', 'transformation', 'outputs', and 'functions'."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           }
         ],
         "responses": {
@@ -416,7 +416,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -454,16 +454,16 @@
             "description": "Parameters applicable to a start streaming job operation."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -476,7 +476,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -497,16 +497,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -519,7 +519,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -549,16 +549,16 @@
             "description": "Parameters applicable to a scale streaming job operation."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -571,7 +571,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -592,16 +592,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -614,7 +614,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -692,7 +692,7 @@
       "description": "A streaming job object, containing all information associated with the named streaming job.",
       "allOf": [
         {
-          "$ref": "../../common/v1/definitions.json#/definitions/TrackedResource"
+          "$ref": "./common/v1/definitions.json#/definitions/TrackedResource"
         }
       ],
       "properties": {
@@ -986,7 +986,7 @@
       ],
       "properties": {
         "authenticationMode": {
-          "$ref": "../../common/v1/definitions.json#/definitions/AuthenticationMode",
+          "$ref": "./common/v1/definitions.json#/definitions/AuthenticationMode",
           "description": "Authentication Mode."
         }
       }

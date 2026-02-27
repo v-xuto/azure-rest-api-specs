@@ -81,16 +81,16 @@
             "description": "Set to '*' to allow a new input to be created, but to prevent updating an existing input. Other values will result in a 412 Pre-condition Failed response."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           },
           {
             "$ref": "#/parameters/InputNameParameter"
@@ -124,7 +124,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -168,16 +168,16 @@
             "description": "The ETag of the input. Omit this value to always overwrite the current input. Specify the last-seen ETag value to prevent accidentally overwriting concurrent changes."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           },
           {
             "$ref": "#/parameters/InputNameParameter"
@@ -199,7 +199,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -217,16 +217,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           },
           {
             "$ref": "#/parameters/InputNameParameter"
@@ -242,7 +242,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -269,16 +269,16 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           },
           {
             "$ref": "#/parameters/InputNameParameter"
@@ -300,7 +300,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         }
@@ -330,16 +330,16 @@
             "description": "The $select OData query parameter. This is a comma-separated list of structural properties to include in the response, or \"*\" to include all properties. By default, all properties are returned except diagnostics. Currently only accepts '*' as a valid value."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           }
         ],
         "responses": {
@@ -352,7 +352,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -384,16 +384,16 @@
             "description": "If the input specified does not already exist, this parameter must contain the full input definition intended to be tested. If the input specified already exists, this parameter can be left null to test the existing input as is or if specified, the properties specified will overwrite the corresponding properties in the existing input (exactly like a PATCH operation) and the resulting input will be tested."
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/SubscriptionIdParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/SubscriptionIdParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ResourceGroupNameParameter"
           },
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/StreamingJobNameParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/StreamingJobNameParameter"
           },
           {
             "$ref": "#/parameters/InputNameParameter"
@@ -412,7 +412,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
@@ -745,7 +745,7 @@
           "description": "The time format. Wherever {time} appears in pathPattern, the value of this property is used as the time format instead."
         },
         "authenticationMode": {
-          "$ref": "../../common/v1/definitions.json#/definitions/AuthenticationMode",
+          "$ref": "./common/v1/definitions.json#/definitions/AuthenticationMode",
           "description": "Authentication Mode. "
         }
       }
@@ -795,7 +795,7 @@
           "description": "The shared access policy key for the specified shared access policy. Required on PUT (CreateOrReplace) requests."
         },
         "authenticationMode": {
-          "$ref": "../../common/v1/definitions.json#/definitions/AuthenticationMode",
+          "$ref": "./common/v1/definitions.json#/definitions/AuthenticationMode",
           "description": "Authentication Mode."
         }
       }

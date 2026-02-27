@@ -47,7 +47,7 @@
         },
         "parameters": [
           {
-            "$ref": "../../common/v1/definitions.json#/parameters/ApiVersionParameter"
+            "$ref": "./common/v1/definitions.json#/parameters/ApiVersionParameter"
           }
         ],
         "responses": {
@@ -60,7 +60,7 @@
           "default": {
             "description": "Error.",
             "schema": {
-              "$ref": "../../common/v1/definitions.json#/definitions/Error"
+              "$ref": "./common/v1/definitions.json#/definitions/Error"
             }
           }
         },
