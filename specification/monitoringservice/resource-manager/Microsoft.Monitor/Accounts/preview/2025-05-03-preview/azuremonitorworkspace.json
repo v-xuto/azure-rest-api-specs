@@ -4202,7 +4202,7 @@
           "description": "The identifier of the investigation"
         },
         "origin": {
-          "$ref": "#/definitions/Origin",
+          "$ref": "#/definitions/IssueOrigin",
           "description": "The origin of the investigation"
         },
         "createdAt": {
@@ -4248,7 +4248,7 @@
           "description": "The ID of the scope of the investigation - either an Azure alert ID or an Azure resource ID"
         },
         "origin": {
-          "$ref": "#/definitions/Origin",
+          "$ref": "#/definitions/IssueOrigin",
           "description": "The origin of the scope"
         },
         "relevance": {
@@ -4259,6 +4259,24 @@
       "required": [
         "id",
         "origin"
+      ]
+    },
+    "IssueOrigin": {
+      "type": "object",
+      "description": "Details about the origin of the entity - the source that added it to the issue",
+      "properties": {
+        "addedBy": {
+          "type": "string",
+          "description": "The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system"
+        },
+        "addedByType": {
+          "$ref": "#/definitions/AddedByType",
+          "description": "The source of the origin - Manual or Automatic"
+        }
+      },
+      "required": [
+        "addedBy",
+        "addedByType"
       ]
     },
     "IssueProperties": {
@@ -4621,24 +4639,6 @@
         "addRecommendedSignals"
       ]
     },
-    "Origin": {
-      "type": "object",
-      "description": "Details about the origin of the entity - the source that added it to the issue",
-      "properties": {
-        "addedBy": {
-          "type": "string",
-          "description": "The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system"
-        },
-        "addedByType": {
-          "$ref": "#/definitions/AddedByType",
-          "description": "The source of the origin - Manual or Automatic"
-        }
-      },
-      "required": [
-        "addedBy",
-        "addedByType"
-      ]
-    },
     "PagedRelatedAlert": {
       "type": "object",
       "description": "Paged collection of RelatedAlert items",
@@ -4746,7 +4746,7 @@
           "description": "The alerts's relevance status"
         },
         "origin": {
-          "$ref": "#/definitions/Origin",
+          "$ref": "#/definitions/IssueOrigin",
           "description": "The source that related the alert to the issue",
           "readOnly": true
         },
@@ -4801,7 +4801,7 @@
           "description": "The resource's relevance status"
         },
         "origin": {
-          "$ref": "#/definitions/Origin",
+          "$ref": "#/definitions/IssueOrigin",
           "description": "The source that related the resource to the issue",
           "readOnly": true
         },

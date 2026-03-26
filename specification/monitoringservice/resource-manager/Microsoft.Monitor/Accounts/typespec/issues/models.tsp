@@ -24,7 +24,7 @@ union AddedByType {
 }
 
 @doc("Details about the origin of the entity - the source that added it to the issue")
-model Origin {
+model IssueOrigin {
   @doc("The ID of the origin - for example, in case of 'Manual', the user ID/app ID, and in case of 'Automatic', the name of the automatic system")
   addedBy: string;
 
@@ -84,7 +84,7 @@ model InvestigationScope {
   id: armResourceIdentifier;
 
   @doc("The origin of the scope")
-  origin: Origin;
+  origin: IssueOrigin;
 
   @doc("The relevance of the scope")
   relevance?: Relevance;
@@ -107,7 +107,7 @@ model InvestigationResult {
 
   @madeOptional(Versions.v2025_10_03)
   @doc("The origin of the investigation")
-  origin?: Origin;
+  origin?: IssueOrigin;
 
   @madeOptional(Versions.v2025_10_03)
   @doc("The creation time of the investigation (in UTC)")
@@ -217,7 +217,7 @@ model BackgroundVisualization {
 
   @visibility(Lifecycle.Read)
   @doc("The background visualization origin")
-  origin: Origin;
+  origin: IssueOrigin;
 }
 
 @doc("The issue properties")
@@ -257,7 +257,7 @@ model RelatedAlert {
 
   @visibility(Lifecycle.Read)
   @doc("The source that related the alert to the issue")
-  origin: Origin;
+  origin: IssueOrigin;
 
   @visibility(Lifecycle.Read)
   @doc("The time this relation was added to the issue (in UTC)")
@@ -284,7 +284,7 @@ model RelatedResource {
 
   @visibility(Lifecycle.Read)
   @doc("The source that related the resource to the issue")
-  origin: Origin;
+  origin: IssueOrigin;
 
   @visibility(Lifecycle.Read)
   @doc("The time this relation was added to the issue (in UTC)")
